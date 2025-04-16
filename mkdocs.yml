@@ -1,0 +1,21 @@
+site_name: Documentação Corporativa
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.tabs
+    - search.highlight
+    - search.share
+nav:
+  - Início: index.md
+  - Sistemas:
+      - Visão Geral: sistemas/index.md
+      - Padrão: sistemas/padrao/index.md
+      - Desempenho: sistemas/desempenho/index.md
+  - RH: rh/index.md
+  - Contratos: contratos/index.md
+  - Governança: governanca/index.md
+plugins:
+  - search
